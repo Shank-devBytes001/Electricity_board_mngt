@@ -72,6 +72,8 @@ php -S localhost:8000
 ```
 ---
 ### Database Details
+
+```bash
 erDiagram
     CUSTOMER ||--o{ BILL : generates
     CUSTOMER {
@@ -88,4 +90,5 @@ erDiagram
         date due_date
         boolean paid
     }
+```
 ---
