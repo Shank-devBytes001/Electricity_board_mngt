@@ -69,7 +69,9 @@ mysql -u <your_user> -p < db/schema.sql
 # 4. Serve with PHP
 php -S localhost:8000
 
-Database Design
+```
+---
+### Database Details
 erDiagram
     CUSTOMER ||--o{ BILL : generates
     CUSTOMER {
@@ -86,3 +88,4 @@ erDiagram
         date due_date
         boolean paid
     }
+---
