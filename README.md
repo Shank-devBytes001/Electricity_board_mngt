@@ -69,3 +69,19 @@ mysql -u <your_user> -p < db/schema.sql
 # 4. Serve with PHP
 php -S localhost:8000
 
+erDiagram
+    CUSTOMER ||--o{ BILL : generates
+    CUSTOMER {
+        int customer_id PK
+        varchar name
+        varchar address
+        varchar contact
+    }
+    BILL {
+        int bill_id PK
+        int customer_id FK
+        int units
+        decimal amount
+        date due_date
+        boolean paid
+    }
