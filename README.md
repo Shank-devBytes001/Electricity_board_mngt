@@ -31,9 +31,6 @@ Electricity Board Management System (DBMS)
 - Responsive design (pure PHP + CSS, no heavy frameworks)
 - MySQL‑ready schema & seed script
 
-## 🖼️ Project Preview
-> <sub>(*Add screenshots or a short GIF here when ready*)</sub>
-
 ---
 
 ## 🛠️ Tech Stack
@@ -51,11 +48,3 @@ Electricity Board Management System (DBMS)
 <summary>🌐 Optional 3‑D logos (works on GitHub Pages)</summary>
 
 ```html
-<!-- Example: interactive PHP logo -->
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-
-<model-viewer src="https://cdn.jsdelivr.net/gh/kaustavha/php-3d-logo/php.glb"
-              alt="PHP 3‑D logo"
-              camera-controls auto-rotate
-              style="width:180px;height:180px;">
-</model-viewer>
