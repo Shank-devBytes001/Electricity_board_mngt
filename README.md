@@ -1,16 +1,11 @@
 # Electricity_Board_mngt
 Electricity Board Management System (DBMS)
-<!-- --------------------------------------------------------------------- -->
-<!--  Electricity Board Management System – README                          -->
-<!-- --------------------------------------------------------------------- -->
-
 <h1 align="center">
   ⚡️ Electricity Board Management System<br>
   <sub><em>Modern DBMS project for managing consumers, bills & payments</em></sub>
 </h1>
 
 <p align="center">
-  <!-- Shields.io badges -->
   <a href="https://github.com/Shank-devBytes001/Electricity_board_mngt">
     <img src="https://img.shields.io/github/last-commit/Shank-devBytes001/Electricity_board_mngt?logo=github&style=for-the-badge" alt="last commit">
   </a>
@@ -23,17 +18,18 @@ Electricity Board Management System (DBMS)
 
 ---
 
-## ✨ Features
+## ✨ Features
+
 - CRUD operations for **customers, meters, tariffs & bills**
-- Admin dashboard with real‑time consumption statistics
-- Secure **login / session management**
-- Auto‑calculated late‑payment surcharge
-- Responsive design (pure PHP + CSS, no heavy frameworks)
-- MySQL‑ready schema & seed script
+- Admin dashboard with real-time consumption statistics
+- Secure **login/session management**
+- Auto-calculated late-payment surcharge
+- Responsive design (pure PHP + CSS, no heavy frameworks)
+- MySQL-ready schema & seed script
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 <table>
   <tr>
@@ -45,3 +41,31 @@ Electricity Board Management System (DBMS)
 </table>
 
 ---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+| Tool     | Version |
+|----------|---------|
+| PHP      | ≥ 8.1   |
+| MySQL    | ≥ 8.0   |
+| Composer | *(optional)* latest |
+
+### Local Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Shank-devBytes001/Electricity_board_mngt.git
+cd Electricity_board_mngt
+
+# 2. Copy & edit the DB connection
+cp connection.example.php connection.php
+# → update DB_HOST, DB_USER, DB_PASS, DB_NAME
+
+# 3. Import the database schema
+mysql -u <your_user> -p < db/schema.sql
+
+# 4. Serve with PHP
+php -S localhost:8000
+
