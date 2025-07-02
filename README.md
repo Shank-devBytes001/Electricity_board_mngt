@@ -44,6 +44,4 @@ Electricity Board Management System (DBMS)
   </tr>
 </table>
 
-<details>
-
-```html
+---
