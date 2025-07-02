@@ -45,6 +45,5 @@ Electricity Board Management System (DBMS)
 </table>
 
 <details>
-<summary>🌐 Optional 3‑D logos (works on GitHub Pages)</summary>
 
 ```html
